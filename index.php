@@ -16,6 +16,7 @@
 	}
 	$arr=array(2,5,7,9,14,37,78);
 	echo bin_sch($arr,0,count($arr)-1,78);
+	echo 'aaaaaaaaa';
 	/*function erfen(&$arr,$findval,$leftindex,$rightindex){
 		if($rightindex<$leftindex){
 			echo '找不到这个数';return;
